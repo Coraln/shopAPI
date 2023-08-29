@@ -1,0 +1,13 @@
+<?php
+
+// Updating products from HydroPro to WooCommerce
+// HTTP request = PUT https://flexo-tekniikka.fi/wp-json/wc/v3/products/<id>
+
+$data = [
+    'id' => '///*TÄSSÄ PITÄISI SAADA KOODI RIVI HYDROSTA*///',
+    'price' => '///*TÄSSÄ PITÄISI SAADA OVH 0% RIVI HYDROSTA*///'
+];
+
+print_r($woocommerce->put('products//*TÄSSÄ PITÄISI SAADA "KOODI" RIVI HYDROSTA*///', $data));
+
+?>
